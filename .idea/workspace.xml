@@ -10,15 +10,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5f69ca-61d4-422e-9523-36fdb64998a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/GenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/JpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookstore/dao/UserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/controller/admin/AdminHomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/controller/frontend/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/frontend/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/frontend/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/frontend/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/frontend/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/controller/frontend/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Book$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Book$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/BookOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/BookOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/OrderDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/OrderDetailId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/OrderDetailId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/entity/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstore/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bookstore/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bookstore/dao/UserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bookstore/dao/UserDAOTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +56,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -39,6 +67,9 @@
   </component>
   <component name="JpbToolWindowState">
     <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/frontend/header.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/frontend/index.jsp" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -66,28 +97,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "java.lang.Object",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/intelij_workspace/BookStoreWebsite/BookStoreWebsite",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;java.lang.Object&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;page&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/intelij_workspace/JDBC/JDBC&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="java.lang.Object" />
@@ -96,7 +129,7 @@
       <recent name="com.bookstore.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDAOTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10">
     <configuration name="UserDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BookStoreWebsite" />
       <extension name="coverage">
@@ -107,13 +140,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bookstore.dao" />
       <option name="MAIN_CLASS_NAME" value="com.bookstore.dao.UserDAOTest" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.84" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.84" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="BookStoreWebsite:war exploded">
           <settings>
@@ -122,8 +157,8 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="882f2105-5b78-46b0-882b-f16f1a939fa6" />
-        <option name="HTTP_PORT" value="8082" />
+        <option name="BASE_DIRECTORY_NAME" value="220926aa-84c7-483b-bb48-e17915265539" />
+        <option name="HTTP_PORT" value="8086" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -131,7 +166,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58948" />
+        <option name="DEBUG_PORT" value="56157" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -200,6 +235,10 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.UserDAOTest" />
+      <item itemvalue="Tomcat Server.Tomcat 10" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserDAOTest" />
@@ -217,6 +256,15 @@
       <workItem from="1705333131779" duration="5000000" />
       <workItem from="1705338207744" duration="938000" />
       <workItem from="1705401892727" duration="4372000" />
+      <workItem from="1705410949554" duration="725000" />
+      <workItem from="1705428959449" duration="3162000" />
+      <workItem from="1705576721858" duration="7420000" />
+      <workItem from="1705835620492" duration="8074000" />
+      <workItem from="1705914566470" duration="3323000" />
+      <workItem from="1706253749751" duration="300000" />
+      <workItem from="1707037147715" duration="1096000" />
+      <workItem from="1708001350685" duration="598000" />
+      <workItem from="1708073435665" duration="1305000" />
     </task>
     <servers />
   </component>

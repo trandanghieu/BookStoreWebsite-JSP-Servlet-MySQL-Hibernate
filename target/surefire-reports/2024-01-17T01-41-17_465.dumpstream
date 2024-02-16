@@ -1,0 +1,5 @@
+# Created at 2024-01-17T01:41:18.264
+Boot Manifest-JAR contains absolute paths in classpath 'D:\intelij_workspace\BookStoreWebsite\BookStoreWebsite\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

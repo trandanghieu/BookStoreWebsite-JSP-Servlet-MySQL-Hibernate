@@ -1,0 +1,3 @@
+com\bookstore\entity\UsersTest.class
+com\bookstore\dao\UserDAOTest.class
+com\bookstore\entity\CategoryTest.class
