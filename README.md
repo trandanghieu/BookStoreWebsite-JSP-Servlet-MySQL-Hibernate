@@ -6,6 +6,7 @@
 - IntelliJ - Maven 
 ## 2.Database
 ![](https://i.imgur.com/OjxowMO.png)
-
+## 3.Data access layer
+![](https://i.imgur.com/I3YxcAt.png)
 
 
