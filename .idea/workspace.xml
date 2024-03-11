@@ -10,15 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c5f69ca-61d4-422e-9523-36fdb64998a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/GenericDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/JpaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookstore/dao/UserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookStoreWebsite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BookStoreWebsite.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/controller/admin/AdminHomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/controller/admin/AdminHomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/JpaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/JpaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookstore/entity/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bookstore/entity/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookstore/dao/UserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookstore/dao/UserDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/controller/admin/AdminHomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/controller/admin/AdminHomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/dao/JpaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/dao/JpaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/BookStoreWebsite-1.0-SNAPSHOT/WEB-INF/classes/com/bookstore/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstore/controller/admin/AdminHomeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bookstore/controller/admin/AdminHomeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstore/dao/JpaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bookstore/dao/JpaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bookstore/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/bookstore/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/bookstore/dao/UserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/bookstore/dao/UserDAOTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,27 +77,27 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-        &quot;keyToString&quot;: {
-        &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-        &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-        &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-        &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-        &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-        &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;java.lang.Object&quot;,
-        &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-        &quot;last_opened_file_path&quot;: &quot;D:/intelij_workspace/BookStoreWebsite/BookStoreWebsite&quot;,
-        &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-        &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-        &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-        &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-        &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-        &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-        &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-        &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-        &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-        &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-        }
-        }</component>
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;java.lang.Object&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/intelij_workspace/BookStoreWebsite/BookStoreWebsite&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="java.lang.Object" />
@@ -99,23 +106,8 @@
       <recent name="com.bookstore.dao" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDAOTest">
-    <configuration name="UserDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BookStoreWebsite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bookstore.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.bookstore.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.bookstore.dao.UserDAOTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 9.0.84" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.84" ALTERNATIVE_JRE_ENABLED="false">
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.84" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <deployment>
         <artifact name="BookStoreWebsite:war exploded">
@@ -203,15 +195,6 @@
         </option>
       </method>
     </configuration>
-    <list>
-      <item itemvalue="JUnit.UserDAOTest" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.84" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.UserDAOTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -224,6 +207,15 @@
       <workItem from="1705333131779" duration="5000000" />
       <workItem from="1705338207744" duration="938000" />
       <workItem from="1705401892727" duration="4372000" />
+      <workItem from="1708351105555" duration="5124000" />
+      <workItem from="1708585445792" duration="3457000" />
+      <workItem from="1709229565339" duration="2431000" />
+      <workItem from="1709397816090" duration="1230000" />
+      <workItem from="1709484011277" duration="1842000" />
+      <workItem from="1709635136902" duration="7179000" />
+      <workItem from="1709665858708" duration="630000" />
+      <workItem from="1709723564544" duration="622000" />
+      <workItem from="1710092387205" duration="10408000" />
     </task>
     <servers />
   </component>

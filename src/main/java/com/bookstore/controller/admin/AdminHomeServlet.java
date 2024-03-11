@@ -16,7 +16,8 @@ public class AdminHomeServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String page = "admin/index.jsp";
+        String page = "index.jsp";
+
         RequestDispatcher dispatcher = req.getRequestDispatcher(page);
         dispatcher.forward(req,resp);
     }
